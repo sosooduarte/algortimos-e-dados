@@ -1,0 +1,12 @@
+import javax.swing.*;
+
+public class modelo {
+    public static void main(String[] args) {
+
+        JOptionPane.showMessageDialog(null, "Digite seu nome");
+
+        String nome = JOptionPane.showInputDialog("DIGITE SEU NOME");
+        JOptionPane.showMessageDialog(null, "Bom dia");
+
+    }
+}
